@@ -1,0 +1,83 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family:sans-serif;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #282863;
+}
+#digital{
+    width: 400px;
+    background-color: rgb(11, 11, 66);
+    color: white;
+    border: none;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    box-sizing: border-box;
+    box-shadow: 0 5px 20px 10px rgb(82, 11, 81);
+}
+#watch{
+    font-size: 30px;
+    position: relative;
+    justify-content: center;
+    display: flex;
+}
+#hours, #minutes{
+    font-size: 6rem;
+}
+#dots{
+    font-size: 5rem;
+}
+#hours{
+    background: -webkit-linear-gradient(90deg, #590c0c,#30f554);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+#minutes{
+    background: -webkit-linear-gradient(90deg, #461faa,#cb0606);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+#right-side{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+#period{
+    padding-bottom: 20px;
+    font-size: 1.2rem;
+    background: -webkit-linear-gradient(90deg, #acb719,#3e410a);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+#seconds{
+    font-size: 2.3rem;
+    background: -webkit-linear-gradient(90deg, #8f176b,#2dbeaf);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+#calendar{
+    display: flex;
+    font-size: 20px;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+    background: -webkit-linear-gradient(90deg, #e5db9f,#125154);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+}
+#month,#day,#date,#year{
+    padding: 5px;
+}
+
